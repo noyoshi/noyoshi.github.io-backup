@@ -1,24 +1,28 @@
 /* Main.css */
 
-.body{
-  background-color: #f9fcff;
-  font-family: 'Noto Sans', sans-serif;
+body{
+  background-color: #383C4A;
+  font-family: 'Lato', sans-serif;
 }
 
-.noto{
-  font-family: 'Noto Sans', sans-serif;
-  color: #0a3560;
-}
-.container{
-  width: 1170px;
-}
-
-.img-thumbnail{
-  width: 200px;
-
+.head{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Raleway, sans-serif;
+  color: #D3DAE3;
+  font-weight: 100;
+  text-decoration-style: none;
+  font-size:30px
 }
 
-.a {
-    color:inherit;
-    text-decoration: none;
+.container-1{
+  background-color: white;
 }
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
