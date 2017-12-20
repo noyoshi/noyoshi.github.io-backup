@@ -1,28 +1,94 @@
 /* Main.css */
 
-body{
+/* Colors:
+Olive Green: #92987E
+Burnt Red: #CC575D
+Blue Grey: #78909C
+Teal: #68B2AD
+Gold/Beige: #E0CFAF
+Sky Blue: #03A9F4
+Background, steel grey: #383C4A
+Off white: #D3DAE3
+*/
+
+/* COLOR DEFINITIONS */
+/* ==========================BACKGROUND========================*/
+.steel-grey-bg{
   background-color: #383C4A;
+}
+.burnt-red-bg{
+  background-color: #CC575D;
+}
+
+.olive-green-bg{
+  background-color: #92987E;
+}
+
+.blue-grey-bg{
+  background-color: #78909C;
+}
+
+.teal-bg{
+  background-color: #68B2AD;
+}
+
+.gold-bg{
+  background-color: #E0CFAF;
+}
+
+/* ==========================TEXT COLORS========================*/
+.steel-grey-text{
+  color: #383C4A;
+}
+
+.burnt-red-text{
+  color: #CC575D;
+}
+
+.olive-green-text{
+  color: #92987E;
+}
+
+.blue-grey-text{
+  color: #78909C;
+}
+
+.teal-text{
+  color: #68B2AD;
+}
+
+.gold-text{
+  color: #E0CFAF;
+}
+
+/* +++++++++++++++++++++++ FONTS +++++++++++++++++++++++ */
+
+.lato{
   font-family: 'Lato', sans-serif;
 }
+ .raleway{
+   font-family: 'Raleway', sans-serif;
+ }
+
+ /* +++++++++++++++++++++++ MAIN +++++++++++++++++++++++ */
 
 .head{
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: Raleway, sans-serif;
-  color: #D3DAE3;
   font-weight: 100;
   text-decoration-style: none;
   font-size:30px
 }
 
-.container-1{
-  background-color: white;
+.fixed{
+  position: fixed;
+  text-align: center;
 }
-
+.subsection-1{
+  width: 900px;
+}
 
 a {
   text-decoration: none;
   color: inherit;
 }
-
-
