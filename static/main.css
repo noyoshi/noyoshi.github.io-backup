@@ -83,16 +83,24 @@ Off white: #D3DAE3
 
 /* +++++++++++++++++++++++ FONTS +++++++++++++++++++++++ */
 
-.lato{
+/*.lato{
+  Now using source-code-pro
     font-family: 'Lato', sans-serif;
-}
+}*/
+
 .raleway{
     font-family: 'Raleway', sans-serif;
 }
 .megrim{
     font-family: 'Megrim', cursive;
 }
+
+.source-code-pro{
+    font-family: 'Source Code Pro', monospace;
+}
+
  /* +++++++++++++++++++++++ MAIN +++++++++++++++++++++++ */
+
 
 .head{
   font-weight: 100;
@@ -119,8 +127,7 @@ a {
 }
 
 .contents{
-    font-size: 22px;
-    font-weight: 200;
+    font-size: 17px;
     padding-bottom: 10px;
 }
 
@@ -144,5 +151,5 @@ a {
 }
 
 .parallax-container{
-    height: 400px;
+    height: 600px;
 }
