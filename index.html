@@ -4,6 +4,7 @@
 <head>
     
     <title>Noah Yoshida</title>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -25,11 +26,22 @@
     <!--- Fonts --->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,500,700|Raleway:300,500,700|Megrim" rel="stylesheet">
     
+    <!--- Parallax requires these to be loaded in here... for some reason -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        (function($){
+          $(function(){
+            $('.parallax').parallax();
+          });
+        })(jQuery);
+    </script>
+    
 </head>
 
 <body class="steel-grey-bg lato">
 
-    <!--- Side Nav -->
+    <!--- Side Nav Left-->
     <ul id="slide-out" class="side-nav fixed z-depth-0">
         <li><a href="#" 
                class="hoverable"
@@ -40,6 +52,12 @@
         <li><a href="#contact" 
                class="hoverable"
                ><span class="fa fa-address-book" aria-hidden="true"></span> Contact</a></li>
+    </ul>
+    
+    <!--- Side Nav Right-->
+    <!-- May just use this to frame the parallax picture... may add buttons.. who knows -->
+    <ul id="slide-out" class="side-nav right-aligned fixed z-depth-0">
+
     </ul>
 
 
@@ -56,50 +74,17 @@
             </div>
         </div>
     </div>
+    
+    <div class="parallax-container">
+      <div class="parallax"><img src="static/pics/slower_train.gif"></div>
+    </div>
+        
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+  
     <div class="container subsection-1 burnt-red-bg" id="aboutme">
         <!-- <div class="container-1"> -->
-        <h2 class="megrim section-head"><span class="fa fa-commenting" aria-hidden="true"></span><b> About Me</b></h2>
+        <h2 class="megrim section-head"><span class="fa fa-commenting-o" aria-hidden="true"></span><b> About Me</b></h2>
         <p class="dark-text contents">Coming from small-ish town Kansas, I was always interested in computers but never had the opprotunity to explore them in school. I was also interested in architecutre, and spent highschool thinking that was going to be my major. While making my
             college portfolio, I found that I enjoyed more so the technology I used to create art, rather than the actual creation of art itself. After accepting my offer to attend Notre Dame, I decided to switch into Computer Science to follow this passion.
             When I came to college, I was determined to figure out how computers and technology work, and find a way to contribute to this community.</p>
@@ -108,11 +93,13 @@
 
         <!-- </div> -->
     </div>
+    <br>
+    <br>
+    <br>
     <div class="container subsection-1 gold-bg" id="contact">
-        <h2 class="megrim section-head">
-            <b>Contact</b>
+        <h2 class="megrim section-head"><span class="fa fa-address-book-o" aria-hidden="true"></span> <b>Contact</b>
         </h2>
-        <div class="well">
+        <div class="">
             <p class="dark-text contact">IRC: Snoonet: SILV3R</p>
         </div>
     </div>
@@ -120,9 +107,12 @@
 </body>
 
 <script src="static/main.js"></script>
+<!--
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
         crossorigin="anonymous"></script>
+-->
+<!--- Bootstrap's JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" 
         integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" 
         crossorigin="anonymous"></script>
@@ -130,7 +120,6 @@
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" 
         crossorigin="anonymous"></script>
 
-<!--- Materialize JS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    
 
 </html>

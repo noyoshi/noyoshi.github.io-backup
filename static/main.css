@@ -40,6 +40,14 @@ Off white: #D3DAE3
     background-color: #D3DAE3;
 }
 
+.faded-purple-bg{
+    background-color: #8F7991;
+}
+
+.purple-grey-bg{
+    background-color: #847983;
+}
+
 /* ==========================TEXT COLORS========================*/
 .steel-grey-text{
   color: #383C4A;
@@ -87,7 +95,6 @@ Off white: #D3DAE3
  /* +++++++++++++++++++++++ MAIN +++++++++++++++++++++++ */
 
 .head{
-  padding-bottom: 10px;
   font-weight: 100;
   text-decoration-style: none;
   font-size:45px
@@ -136,3 +143,6 @@ a {
 
 }
 
+.parallax-container{
+    height: 700px;
+}
