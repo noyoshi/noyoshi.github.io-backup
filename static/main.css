@@ -9,6 +9,7 @@ Gold/Beige: #E0CFAF
 Sky Blue: #03A9F4
 Background, steel grey: #383C4A
 Off white: #D3DAE3
+Pink : #F6868C;
 */
 
 /* COLOR DEFINITIONS */
@@ -46,6 +47,10 @@ Off white: #D3DAE3
 
 .purple-grey-bg{
     background-color: #847983;
+}
+
+.pink-bg{
+  background-color: #e2858a;
 }
 
 /* ==========================TEXT COLORS========================*/
@@ -122,7 +127,7 @@ a {
 }
 
 .section-head{
-    padding-top: 10px;
+    padding-top: 18px;
     font-size: 40px;
 }
 
@@ -139,7 +144,7 @@ a {
 .side-nav{
   background-color: inherit;
   width: 9%;
-    padding-top: 60px;
+  padding-top: 20px;
 
 }
 
@@ -152,4 +157,23 @@ a {
 
 .parallax-container{
     height: 600px;
+}
+
+.subsection-head{
+  font-size: 30px;
+}
+
+.divider{
+  color: #E0CFAF;
+}
+
+.section-title{
+  padding-left: 15px;
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+
+.section-contents{
+  padding-left: 65px;
+  margin-bottom: 3px;
 }
