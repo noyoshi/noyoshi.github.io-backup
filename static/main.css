@@ -126,6 +126,13 @@ a {
   background-color: inherit;
   width: 9%;
     padding-top: 60px;
+
 }
 
+.side-nav li > a{
+    color: #E0CFAF;
+    text-decoration:none;
+    font-family: 'Lato', sans-serif;
+
+}
 
