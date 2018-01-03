@@ -1,94 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Noah Yoshida</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!--- Boostrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  
 
+<head>
+    
+    <title>Noah Yoshida</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--- Boostrap CSS -->
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" 
+          crossorigin="anonymous">
+    
     <!--- Materialize CSS -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    
     <!--- Custom stylesheet -->
-  <link rel="stylesheet" href="static/main.css">
+    <link rel="stylesheet" href="static/main.css">
     
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,500,700|Raleway:300,500,700|Megrim" rel="stylesheet">
+    <!--- Fonts --->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,500,700|Raleway:300,500,700|Megrim" rel="stylesheet">
+    
 </head>
-<body class="steel-grey-bg lato">  
-    
+
+<body class="steel-grey-bg lato">
+
+    <!--- Side Nav -->
     <ul id="slide-out" class="side-nav fixed z-depth-0">
-      <li><a href="#!">First Sidebar Link</a></li>
-      <li><a href="#!">Second Sidebar Link</a></li>
+        <li><a href="#" 
+               class="hoverable"
+               style="text-decoration:none;
+                color: #E0CFAF;">Top</a></li>
+        <li><a href="#aboutme" 
+               class="hoverable"
+               style="text-decoration:none;
+                color: #E0CFAF;">About Me</a></li>
+        <li><a href="#contact" 
+               class="hoverable"
+               style="text-decoration:none;
+                color: #E0CFAF;">Contact</a></li>
     </ul>
 
-          
+
     <div class="container">
-      <div class="row">
-          
-        <div class="col-md-8 offset-md-2">
-          <div class="page-header head" style="text-align: center;">
-            <h1 class="head off-white-text">
-              <a style="text-decoration:none; color:inherit;" class="megrim" href="index.html">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="page-header head" style="text-align: center;">
+                    <h1 class="head off-white-text">
+                        <a style="text-decoration:none; color:inherit;" class="megrim" href="index.html">
               NOAH YOSHIDA
               </a>
-            </h1>
-          </div>
+                    </h1>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
- 
 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <div class="container subsection-1 burnt-red-bg">
-    <!-- <div class="container-1"> -->
-      <h2 class="megrim section-head"><b>About Me</b></h2>
-      <p class="dark-text contents">Coming from small-ish town Kansas, I was always interested in computers but never had the opprotunity to explore them in school. I was also interested in architecutre, and spent highschool thinking that was going to be my major. While making my college portfolio, I found that I enjoyed more so the technology I used to create art, rather than the actual creation of art itself. After accepting my offer to attend Notre Dame, I decided to switch into Computer Science to follow this passion. When I came to college, I was determined to figure out how computers and technology work, and find a way to contribute to this community.</p>
-      <p class="dark-text contents"> My current interests lie in machine leanring. The first project I did that introdued me to CS was a Neural Network, and ever since them I have been fascinated with the field. Since I only started exploring CS in May 2017, I am open to learning anything and have been exposing myself to as many different facets to this field as possible, both inside and outside of class. </p>
 
-    <!-- </div> -->
- </div>
-    <div class="container subsection-1 gold-bg">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container subsection-1 burnt-red-bg" id="aboutme">
+        <!-- <div class="container-1"> -->
+        <h2 class="megrim section-head"><b>About Me</b></h2>
+        <p class="dark-text contents">Coming from small-ish town Kansas, I was always interested in computers but never had the opprotunity to explore them in school. I was also interested in architecutre, and spent highschool thinking that was going to be my major. While making my
+            college portfolio, I found that I enjoyed more so the technology I used to create art, rather than the actual creation of art itself. After accepting my offer to attend Notre Dame, I decided to switch into Computer Science to follow this passion.
+            When I came to college, I was determined to figure out how computers and technology work, and find a way to contribute to this community.</p>
+        <p class="dark-text contents"> My current interests lie in machine leanring. The first project I did that introdued me to CS was a Neural Network, and ever since them I have been fascinated with the field. Since I only started exploring CS in May 2017, I am open to learning
+            anything and have been exposing myself to as many different facets to this field as possible, both inside and outside of class. </p>
+
+        <!-- </div> -->
+    </div>
+    <div class="container subsection-1 gold-bg" id="contact">
         <h2 class="megrim section-head">
             <b>Contact</b>
         </h2>
@@ -96,16 +118,21 @@
             <p class="dark-text contact">IRC: Snoonet: SILV3R</p>
         </div>
     </div>
-</div>
-        </div>
-    
+
 </body>
 
 <script src="static/main.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" 
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" 
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" 
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" 
+        crossorigin="anonymous"></script>
 
 <!--- Materialize JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 </html>

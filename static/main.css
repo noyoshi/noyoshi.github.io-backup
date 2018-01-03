@@ -87,7 +87,6 @@ Off white: #D3DAE3
  /* +++++++++++++++++++++++ MAIN +++++++++++++++++++++++ */
 
 .head{
-/*  padding-top: 10px;*/
   padding-bottom: 10px;
   font-weight: 100;
   text-decoration-style: none;
@@ -125,7 +124,8 @@ a {
 
 .side-nav{
   background-color: inherit;
-  width: 10%;
+  width: 9%;
+    padding-top: 60px;
 }
 
 
