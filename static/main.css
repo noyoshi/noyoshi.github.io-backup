@@ -110,7 +110,7 @@ Pink : #F6868C;
 .head{
   font-weight: 100;
   text-decoration-style: none;
-  font-size:45px
+  font-size:50px
 }
 
 .fixed{
@@ -161,6 +161,8 @@ a {
 
 .subsection-head{
   font-size: 30px;
+  padding-top: 10px;
+  margin-bottom: 3px;
 }
 
 .divider{
@@ -169,11 +171,17 @@ a {
 
 .section-title{
   padding-left: 15px;
-  margin-bottom: 0px;
   font-size: 17px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .section-contents{
   padding-left: 65px;
   margin-bottom: 3px;
 }
+
+/*.row .col{
+  padding-left:0px;
+}*/
+
